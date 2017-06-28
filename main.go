@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 	"log"
 	"strconv"
@@ -11,9 +12,8 @@ import (
 
 //Show type
 type Show struct {
-	ID        int
-	name      string
-	timeTable []string
+	Name      string
+	Timetable []string
 }
 
 //Place type
@@ -36,20 +36,35 @@ func main() {
 	fmt.Println("Fetching Cinemas from here: ", cinesURL)
 	fmt.Println("Fetching Theaters from here: ", teatrosURL)
 
-	places := make([]Place, 0, 2)
+	cines := make([]Place, 0, 2)
+	teatros := make([]Place, 0, 2)
 
-	err := getPlaces(cinesURL, cineURL, "cine", &places)
+	err := getPlaces(cinesURL, cineURL, "cine", &cines)
 	if err != nil {
-		log.Printf("Error....")
+		log.Printf("error getting places: %v", err)
 	}
-	for i, p := range places {
-		log.Printf("Place %d: %s", i, p.Name)
-		for j, s := range p.Shows {
-			log.Printf("Show %d: %s", j, s.name)
-		}
+	err = getPlaces(teatrosURL, obraURL, "teatro", &teatros)
+	if err != nil {
+		log.Printf("error getting places: %v", err)
 	}
-	//getPlaces(teatrosURL, obraURL, "teatro")
 
+	// for i, p := range places {
+	// 	log.Printf("Place %d: %s", i, p.Name)
+	// 	for j, s := range p.Shows {
+	// 		log.Printf("Show %d: %s", j, s.Name)
+	// 	}
+	// }
+	c, err := json.Marshal(cines)
+	if err != nil {
+		log.Printf("error converting to json: %v", err)
+	}
+	t, err := json.Marshal(teatros)
+	if err != nil {
+		log.Printf("error converting to json: %v", err)
+	}
+
+	log.Println(string(c))
+	log.Println(string(t))
 }
 
 func getPlaces(mainURL, detailsURL, kind string, places *[]Place) error {
@@ -68,14 +83,13 @@ func getPlaces(mainURL, detailsURL, kind string, places *[]Place) error {
 		}
 		newID, err := strconv.Atoi(id)
 		if err != nil {
-			log.Printf("Cannot convert")
+			log.Printf("cannot convert string id: %v", err)
 		}
-		if newID == 760 {
-			name := s.Text()
+		if newID == 760 || newID == 485 {
 			lugar := new(Place)
 			lugar.ID = newID
-			lugar.Name = name
-			lugar.Shows, err = getDetails(id, name, kind, detailsURL)
+			lugar.Name = s.Text()
+			err = getDetails(id, lugar.Name, kind, detailsURL, lugar)
 			if err != nil {
 				log.Printf("error")
 			}
@@ -85,18 +99,16 @@ func getPlaces(mainURL, detailsURL, kind string, places *[]Place) error {
 	return nil
 }
 
-func getDetails(id, name, kind, detailsURL string) ([]Show, error) {
+func getDetails(id, name, kind, detailsURL string, lugar *Place) error {
 
 	docDetails, err := goquery.NewDocument(detailsURL + id)
 	if err != nil {
-		return nil, err
+		return err
 	}
 	address := docDetails.Find(".BusquedaResultado").Text()
 	address = standardizeSpaces(address)
 	address = strings.Replace(address, name, name+",", -1)
-
-	show := new(Show)
-	shows := make([]Show, 0, 2)
+	lugar.Address = address
 
 	docDetails.Find("h3").Each(func(i int, s *goquery.Selection) {
 		// For each item found, get the band and title
@@ -108,13 +120,13 @@ func getDetails(id, name, kind, detailsURL string) ([]Show, error) {
 			timeTable = strings.Replace(timeTable, ".", ",", -1)
 			results := strings.Split(timeTable, ",")
 			results = deleteEmpty(results)
-			show.name = name
-			show.timeTable = results
-
-			shows = append(shows, *show)
+			//show.name = name
+			//show.timeTable = results
+			lugar.Shows = append(lugar.Shows, Show{Name: name, Timetable: results})
 		}
 	})
-	return shows, nil
+
+	return nil
 }
 
 func deleteEmpty(s []string) []string {
