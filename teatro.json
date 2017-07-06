@@ -1,0 +1,2976 @@
+[
+    {
+        "ID": "607",
+        "Name": "Apolo",
+        "Address": "Apolo, Corrientes 1372",
+        "Shows": [
+            {
+                "Name": "Lo prohibido.",
+                "Timetable": [
+                    " Domingo a las 20"
+                ]
+            },
+            {
+                "Name": "Moldavsky suelto en el Apolo",
+                "Timetable": [
+                    " Sábado a las 22:30"
+                ]
+            },
+            {
+                "Name": "Un mundo para Denise",
+                "Timetable": [
+                    " Sábado a las 15"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "1163",
+        "Name": "Centro Argentino de Teatro Ciego",
+        "Address": "Centro Argentino de Teatro Ciego, Zelaya 3006",
+        "Shows": [
+            {
+                "Name": "A ciegas Gourmet",
+                "Timetable": [
+                    " Miércoles a Domingo a las 21"
+                ]
+            },
+            {
+                "Name": "Babilonia FX",
+                "Timetable": [
+                    " Viernes a las 23",
+                    " Sábado a las 0:00",
+                    " Domingo a las 20"
+                ]
+            },
+            {
+                "Name": "El infinito silencio",
+                "Timetable": [
+                    " Jueves a las 22",
+                    " Sábado a las 23",
+                    " Domingo a las 18"
+                ]
+            },
+            {
+                "Name": "Inodoro Pereyra",
+                "Timetable": [
+                    " Miércoles a Viernes a las 21",
+                    " Sábado a las 22"
+                ]
+            },
+            {
+                "Name": "Luces, la revolución",
+                "Timetable": [
+                    " Viernes a las 22",
+                    " Sábado a las 21",
+                    " Domingo a las 19"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "209",
+        "Name": "Andamio 90",
+        "Address": "Andamio 90, Paraná 660",
+        "Shows": [
+            {
+                "Name": "En boca cerrada…",
+                "Timetable": [
+                    " Domingo a las 20"
+                ]
+            },
+            {
+                "Name": "Hombres, imágenes y muñecos",
+                "Timetable": [
+                    " Viernes a las 22:30"
+                ]
+            },
+            {
+                "Name": "La complicidad de la inocencia",
+                "Timetable": [
+                    " Domingo a las 18"
+                ]
+            },
+            {
+                "Name": "Lisístrata o la rebelión de las mujeres",
+                "Timetable": [
+                    " Sábado a las 22:30"
+                ]
+            },
+            {
+                "Name": "Robespierre.",
+                "Timetable": [
+                    " Viernes a las 20:30"
+                ]
+            },
+            {
+                "Name": "Sacco y Vanzetti",
+                "Timetable": [
+                    " Jueves a las 21"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "317",
+        "Name": "Actors Studio",
+        "Address": "Actors Studio, Av. Díaz Vélez 3842",
+        "Shows": [
+            {
+                "Name": "Clelia, historia de dos hermanas",
+                "Timetable": [
+                    " Sábado a las 22"
+                ]
+            },
+            {
+                "Name": "En giro",
+                "Timetable": [
+                    " Sábado a las 20"
+                ]
+            },
+            {
+                "Name": "Eterno perfume a lilas...",
+                "Timetable": [
+                    " Sábado a las 18"
+                ]
+            },
+            {
+                "Name": "La revolución surrealista, el sueño no está muerto",
+                "Timetable": [
+                    " Domingo a las 17"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "490",
+        "Name": "De la Ribera",
+        "Address": "De la Ribera, Pedro de Mendoza 1821",
+        "Shows": [
+            {
+                "Name": "Crimen pasional",
+                "Timetable": [
+                    " Jueves a Sábado a las 19"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "628",
+        "Name": "Asociación Italiana de Belgrano",
+        "Address": "Asociación Italiana de Belgrano, Moldes 2157",
+        "Shows": [
+            {
+                "Name": "Un tesoro de pirata",
+                "Timetable": [
+                    " Sábado y Domingo a las 16"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "1790",
+        "Name": "Tandem Bar",
+        "Address": "Tandem Bar, Sarmiento 1551. Subsuelo",
+        "Shows": [
+            {
+                "Name": "Varón pa`quererte mucho",
+                "Timetable": [
+                    " Viernes a las 22:30"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "210",
+        "Name": "Centro Cultural Recoleta",
+        "Address": "Centro Cultural Recoleta, Junín 1930",
+        "Shows": [
+            {
+                "Name": "Fuerza Bruta",
+                "Timetable": [
+                    " Miércoles y Jueves a las 20:30",
+                    " Viernes a las 20:30 y 23:30",
+                    " Sábado a las 19 y 22",
+                    " Domingo a las 17 y 19:30"
+                ]
+            },
+            {
+                "Name": "Museo participativo de ciencias",
+                "Timetable": [
+                    " Martes a Viernes a las 12:30",
+                    " Sábado y Domingo a las 15:30"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "1700",
+        "Name": "La Lunares Teatro",
+        "Address": "La Lunares Teatro, Humahuaca 4027",
+        "Shows": [
+            {
+                "Name": "La vajilla",
+                "Timetable": [
+                    " Domingo a las 19"
+                ]
+            },
+            {
+                "Name": "Taquitos en el barro",
+                "Timetable": [
+                    " Lunes a las 21"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "865",
+        "Name": "El Ojo",
+        "Address": "El Ojo, Juan D. Perón 2115",
+        "Shows": [
+            {
+                "Name": "Antígona",
+                "Timetable": [
+                    " Domingo a las 20"
+                ]
+            },
+            {
+                "Name": "Cita a Ciegas",
+                "Timetable": [
+                    " Sábado a las 22"
+                ]
+            },
+            {
+                "Name": "Claveles rojos",
+                "Timetable": [
+                    " Sábado a las 20",
+                    " Domingo a las 18"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "307",
+        "Name": "El Nacional Sancor Seguros",
+        "Address": "El Nacional Sancor Seguros, Corrientes 960",
+        "Shows": [
+            {
+                "Name": "Masha y el oso",
+                "Timetable": [
+                    " Sábado y Domingo a las 14 y 16:30"
+                ]
+            },
+            {
+                "Name": "Un rato con él",
+                "Timetable": [
+                    " Jueves y Viernes a las 20:30",
+                    " Sábado a las 20 y 22:30",
+                    " Domingo a las 20"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "1154",
+        "Name": "Centro Cultural 25 de Mayo",
+        "Address": "Centro Cultural 25 de Mayo, Triunvirato 4444 (Villa Urquiza)",
+        "Shows": [
+            {
+                "Name": "El Botella",
+                "Timetable": [
+                    " Sábado y Domingo a las 17"
+                ]
+            },
+            {
+                "Name": "El diario de Anna Frank",
+                "Timetable": [
+                    " Jueves a Domingo a las 21:15"
+                ]
+            },
+            {
+                "Name": "El vestido de mamá",
+                "Timetable": [
+                    " Sábado y Domingo a las 17"
+                ]
+            },
+            {
+                "Name": "Mi perro López",
+                "Timetable": [
+                    " Sábado y Domingo a las 14"
+                ]
+            },
+            {
+                "Name": "Miedo",
+                "Timetable": [
+                    " Sábado a las 22"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "560",
+        "Name": "Anfitrión",
+        "Address": "Anfitrión, Venezuela 3340",
+        "Shows": [
+            {
+                "Name": "Cactus orquidea",
+                "Timetable": [
+                    " Sábado a las 21"
+                ]
+            },
+            {
+                "Name": "Deep Web",
+                "Timetable": [
+                    " Jueves a las 21"
+                ]
+            },
+            {
+                "Name": "La rascada",
+                "Timetable": [
+                    " Viernes a las 22:30"
+                ]
+            },
+            {
+                "Name": "Medea",
+                "Timetable": [
+                    " Sábado a las 19"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "281",
+        "Name": "Astral",
+        "Address": "Astral, Corrientes 1639",
+        "Shows": [
+            {
+                "Name": "Bossi Master Show",
+                "Timetable": [
+                    " Jueves a las 20:30",
+                    " Viernes a las 21:30",
+                    " Sábado a las 20:30 y 23:30",
+                    " Domingo a las 20:30"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "495",
+        "Name": "Caliban",
+        "Address": "Caliban, México 1428",
+        "Shows": [
+            {
+                "Name": "Unificio",
+                "Timetable": [
+                    " Domingo a las 18"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "1598",
+        "Name": "Picadero",
+        "Address": "Picadero, Pasaje Santos Discepolo 1857",
+        "Shows": [
+            {
+                "Name": "El amor y las pasiones",
+                "Timetable": [
+                    " Jueves a las 22:30"
+                ]
+            },
+            {
+                "Name": "El loco y la camisa",
+                "Timetable": [
+                    " Martes a las 20:30"
+                ]
+            },
+            {
+                "Name": "Historias de diván: La obra",
+                "Timetable": [
+                    " Viernes y Sábado a las 22:45"
+                ]
+            },
+            {
+                "Name": "I.D.I.O.T.A.",
+                "Timetable": [
+                    " Miércoles a Domingo a las 20:30"
+                ]
+            },
+            {
+                "Name": "Last call (Ultimo llamado)",
+                "Timetable": [
+                    " Domingo a las 18"
+                ]
+            },
+            {
+                "Name": "Vivitos y coleando 2",
+                "Timetable": [
+                    " Sábado y Domingo a las 16"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "1615",
+        "Name": "El Ópalo",
+        "Address": "El Ópalo, Junín 380",
+        "Shows": [
+            {
+                "Name": "25 millones de argentinos",
+                "Timetable": [
+                    " Sábado a las 22"
+                ]
+            },
+            {
+                "Name": "Borges",
+                "Timetable": [
+                    " Sábado a las 20"
+                ]
+            },
+            {
+                "Name": "Sumario de la Muerte de Von Kleist",
+                "Timetable": [
+                    " Viernes a las 21"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "880",
+        "Name": "Maipo Kabaret",
+        "Address": "Maipo Kabaret, Esmeralda 443. 2º Piso",
+        "Shows": [
+            {
+                "Name": "Amado mío",
+                "Timetable": [
+                    " Viernes a Domingo a las 20"
+                ]
+            },
+            {
+                "Name": "Cita a ciegas..",
+                "Timetable": [
+                    " Jueves a las 21:45"
+                ]
+            },
+            {
+                "Name": "Don`t stop me now",
+                "Timetable": [
+                    " Sábado a las 23:30"
+                ]
+            },
+            {
+                "Name": "La vuelta al mundo en 80 días",
+                "Timetable": [
+                    " Sábado y Domingo a las 16:30"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "485",
+        "Name": "Picadilly",
+        "Address": "Picadilly, Corrientes 1524",
+        "Shows": [
+            {
+                "Name": "Demoledores",
+                "Timetable": [
+                    " Viernes y Sábado a las 23",
+                    " Domingo a las 21"
+                ]
+            },
+            {
+                "Name": "Justo en lo mejor de mi vida",
+                "Timetable": [
+                    " Miércoles a Viernes a las 20:30",
+                    " Sábado a las 21",
+                    " Domingo a las 19"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "545",
+        "Name": "El Portón de Sánchez",
+        "Address": "El Portón de Sánchez, Sánchez de Bustamante 1034",
+        "Shows": [
+            {
+                "Name": "Apenas el fin del mundo",
+                "Timetable": [
+                    " Viernes a las 20:30"
+                ]
+            },
+            {
+                "Name": "Gurisa",
+                "Timetable": [
+                    " Viernes a las 23"
+                ]
+            },
+            {
+                "Name": "Lo lindo de calzarse es pisar en cualquier lado",
+                "Timetable": [
+                    " Martes a las 21"
+                ]
+            },
+            {
+                "Name": "Peer Gynt",
+                "Timetable": [
+                    " Sábado a las 23"
+                ]
+            },
+            {
+                "Name": "Puto",
+                "Timetable": [
+                    " Miércoles a las 21:30"
+                ]
+            },
+            {
+                "Name": "Salir del ruedo",
+                "Timetable": [
+                    " Domingo a las 17:30"
+                ]
+            },
+            {
+                "Name": "Una preguntita banal",
+                "Timetable": [
+                    " Sábado a las 20:30"
+                ]
+            },
+            {
+                "Name": "Yerma (hay un niño en la calle)",
+                "Timetable": [
+                    " Domingo a las 20"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "529",
+        "Name": "Empire",
+        "Address": "Empire, H. Yrigoyen 1934",
+        "Shows": [
+            {
+                "Name": "Bailamos, porque es nuestra forma de cambiar el mundo",
+                "Timetable": [
+                    " Sábado a las 16"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "1758",
+        "Name": "El método Kairos",
+        "Address": "El método Kairos, El Salvador 4530",
+        "Shows": [
+            {
+                "Name": "Zeide Shike.",
+                "Timetable": [
+                    " Domingo a las 18"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "520",
+        "Name": "Moliére",
+        "Address": "Moliére, Balcarce 682",
+        "Shows": [
+            {
+                "Name": "Quizás hoy",
+                "Timetable": [
+                    " Martes a las 20:30"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "493",
+        "Name": "Coliseo",
+        "Address": "Coliseo, M. T. de Alvear 1125",
+        "Shows": [
+            {
+                "Name": "My Little Pony: Equestria Girls",
+                "Timetable": [
+                    " Sábado y Domingo a las 15"
+                ]
+            },
+            {
+                "Name": "Paw Patrol",
+                "Timetable": [
+                    " Sábado 15 al Domingo 23 de Julio a las 15 y 17:30"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "1536",
+        "Name": "El Tinglado",
+        "Address": "El Tinglado, Mario Bravo 948",
+        "Shows": [
+            {
+                "Name": "El diccionario",
+                "Timetable": [
+                    " Viernes a las 20",
+                    " Domingo a las 18"
+                ]
+            },
+            {
+                "Name": "Hacela corta Beckett",
+                "Timetable": [
+                    " Martes a las 20:45"
+                ]
+            },
+            {
+                "Name": "Kilómetro limbo",
+                "Timetable": [
+                    " Lunes a las 20"
+                ]
+            },
+            {
+                "Name": "Pequeñas infidelidades",
+                "Timetable": [
+                    " Sábado a las 20 y 22"
+                ]
+            },
+            {
+                "Name": "Ser ellas",
+                "Timetable": [
+                    " Jueves a las 20"
+                ]
+            },
+            {
+                "Name": "Vacas sagradas",
+                "Timetable": [
+                    " Viernes a las 22:15"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "1591",
+        "Name": "Auditorio Losada",
+        "Address": "Auditorio Losada, Av. Corrientes 1551",
+        "Shows": [
+            {
+                "Name": "8 mujeres",
+                "Timetable": [
+                    " Viernes a las 22"
+                ]
+            },
+            {
+                "Name": "La vagina enlutada",
+                "Timetable": [
+                    " Domingo a las 20"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "952",
+        "Name": "El Piccolino",
+        "Address": "El Piccolino, Fitz Roy 2056",
+        "Shows": [
+            {
+                "Name": "Casi siempre hay un sillón",
+                "Timetable": [
+                    " Viernes a las 21:30"
+                ]
+            },
+            {
+                "Name": "Dale!",
+                "Timetable": [
+                    " Sábado a las 17:30"
+                ]
+            },
+            {
+                "Name": "Piedra libre",
+                "Timetable": [
+                    " Domingo a las 19:30"
+                ]
+            },
+            {
+                "Name": "Tristán e Isolda..",
+                "Timetable": [
+                    " Jueves a las 21:30"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "1785",
+        "Name": "El Brío",
+        "Address": "El Brío, Alvarez Thomas 1582",
+        "Shows": [
+            {
+                "Name": "La bestia invisible",
+                "Timetable": [
+                    " Sábado a las 22"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "204",
+        "Name": "Centro Cultural Borges",
+        "Address": "Centro Cultural Borges, Viamonte y San Martín",
+        "Shows": [
+            {
+                "Name": "Aventuras en el Laboratoons",
+                "Timetable": [
+                    " Sábado y Domingo a las 15"
+                ]
+            },
+            {
+                "Name": "Bien de Tango",
+                "Timetable": [
+                    " Viernes y Sábado a las 20"
+                ]
+            },
+            {
+                "Name": "Buenos Aires pasión de tango",
+                "Timetable": [
+                    " Lunes a las 20"
+                ]
+            },
+            {
+                "Name": "Con alma de tango",
+                "Timetable": [
+                    " Miércoles a las 20"
+                ]
+            },
+            {
+                "Name": "Coppelia",
+                "Timetable": [
+                    " Domingo a las 11"
+                ]
+            },
+            {
+                "Name": "La Garbo argentina",
+                "Timetable": [
+                    " Jueves a las 20:30"
+                ]
+            },
+            {
+                "Name": "La lista",
+                "Timetable": [
+                    " Sábado a las 22:15"
+                ]
+            },
+            {
+                "Name": "M.A.T.E.",
+                "Timetable": [
+                    " Sábado y Domingo a las 17"
+                ]
+            },
+            {
+                "Name": "Pura sangre",
+                "Timetable": [
+                    " Domingo a las 20"
+                ]
+            },
+            {
+                "Name": "Sueños curiosos",
+                "Timetable": [
+                    " Sábado y Domingo a las 16"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "492",
+        "Name": "Regio",
+        "Address": "Regio, Córdoba 6056",
+        "Shows": [
+            {
+                "Name": "La vuelta al mundo en 80 mundos",
+                "Timetable": [
+                    " Sábado a las 15"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "564",
+        "Name": "Del Pasillo",
+        "Address": "Del Pasillo, Colombres 35",
+        "Shows": [
+            {
+                "Name": "Inmensos cachitos de amor",
+                "Timetable": [
+                    " Sábado a las 21"
+                ]
+            },
+            {
+                "Name": "Voy",
+                "Timetable": [
+                    " Sábado a las 19"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "605",
+        "Name": "La Galera",
+        "Address": "La Galera, Humboldt 1591",
+        "Shows": [
+            {
+                "Name": "Alicia Rock",
+                "Timetable": [
+                    " Sábado a las 15"
+                ]
+            },
+            {
+                "Name": "Blancanieves y los 8 enanitos",
+                "Timetable": [
+                    " Domingo a las 15"
+                ]
+            },
+            {
+                "Name": "Lindo, el patito feo",
+                "Timetable": [
+                    " Domingo a las 16:15"
+                ]
+            },
+            {
+                "Name": "Los nonos, un musical de otros tiempos",
+                "Timetable": [
+                    " Sábado y Domingo a las 17:30"
+                ]
+            },
+            {
+                "Name": "María Elena",
+                "Timetable": [
+                    " Sábado a las 16:15"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "549",
+        "Name": "El Camarín de las Musas",
+        "Address": "El Camarín de las Musas, Mario Bravo 960",
+        "Shows": [
+            {
+                "Name": "Clara",
+                "Timetable": [
+                    " Sábado a las 22:30"
+                ]
+            },
+            {
+                "Name": "Como si pasara un tren",
+                "Timetable": [
+                    " Sábado a las 20",
+                    " Domingo a las 17 y 19"
+                ]
+            },
+            {
+                "Name": "Elástico",
+                "Timetable": [
+                    " Domingo a las 16:30"
+                ]
+            },
+            {
+                "Name": "Hermanas",
+                "Timetable": [
+                    " Viernes a las 23"
+                ]
+            },
+            {
+                "Name": "Hidalgo",
+                "Timetable": [
+                    " Jueves a las 21"
+                ]
+            },
+            {
+                "Name": "La culpa de nada",
+                "Timetable": [
+                    " Viernes a las 21"
+                ]
+            },
+            {
+                "Name": "La Pilarcita",
+                "Timetable": [
+                    " Viernes y Sábado a las 20 y 22"
+                ]
+            },
+            {
+                "Name": "Las hermanas misterio - Servicio de respuestas",
+                "Timetable": [
+                    " Domingo a las 15"
+                ]
+            },
+            {
+                "Name": "Teresa está liebre",
+                "Timetable": [
+                    " Jueves a las 21"
+                ]
+            },
+            {
+                "Name": "Tiper Tap",
+                "Timetable": [
+                    " Domingo a las 18"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "357",
+        "Name": "Payró",
+        "Address": "Payró, San Martín 766",
+        "Shows": [
+            {
+                "Name": "Cenizas en las manos",
+                "Timetable": [
+                    " Domingo a las 20"
+                ]
+            },
+            {
+                "Name": "La hora de la calabaza",
+                "Timetable": [
+                    " Viernes y Sábado a las 21"
+                ]
+            },
+            {
+                "Name": "Payró Danza",
+                "Timetable": [
+                    " Martes a las 21"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "443",
+        "Name": "Liceo",
+        "Address": "Liceo, Rivadavia y Paraná",
+        "Shows": [
+            {
+                "Name": "Entretelones",
+                "Timetable": [
+                    " Miércoles a Viernes a las 20:30",
+                    " Sábado a las 20:30 y 22:30",
+                    " Domingo a las 20"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "1708",
+        "Name": "El Galpón de Guevara",
+        "Address": "El Galpón de Guevara, Guevara 326",
+        "Shows": [
+            {
+                "Name": "Click",
+                "Timetable": [
+                    " Viernes a las 21"
+                ]
+            },
+            {
+                "Name": "Cucotel",
+                "Timetable": [
+                    " Domingo a las 16:30"
+                ]
+            },
+            {
+                "Name": "Hormigópolis",
+                "Timetable": [
+                    " Domingo a las 15"
+                ]
+            },
+            {
+                "Name": "Los Incunables",
+                "Timetable": [
+                    " Domingo a las 18"
+                ]
+            },
+            {
+                "Name": "Los invertidos",
+                "Timetable": [
+                    " Sábado a las 23"
+                ]
+            },
+            {
+                "Name": "Noche corta.",
+                "Timetable": [
+                    " Lunes a las 21"
+                ]
+            },
+            {
+                "Name": "Tiempo de sueño",
+                "Timetable": [
+                    " Jueves a las 21"
+                ]
+            },
+            {
+                "Name": "Un instante",
+                "Timetable": [
+                    " Viernes a las 23"
+                ]
+            },
+            {
+                "Name": "Voley, la final",
+                "Timetable": [
+                    " Sábado a las 21"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "969",
+        "Name": "No Avestruz",
+        "Address": "No Avestruz, Humbold 1857",
+        "Shows": [
+            {
+                "Name": "La furia del volcán",
+                "Timetable": [
+                    " Sábado a las 20"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "532",
+        "Name": "La Otra Orilla",
+        "Address": "La Otra Orilla, Gral. Urquiza 124",
+        "Shows": [
+            {
+                "Name": "Dashua",
+                "Timetable": [
+                    " Sábado a las 21",
+                    " Lunes a las 22"
+                ]
+            },
+            {
+                "Name": "La cuna vacía",
+                "Timetable": [
+                    " Viernes a las 22"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "1467",
+        "Name": "La Carpintería",
+        "Address": "La Carpintería, Jean Jaures 858",
+        "Shows": [
+            {
+                "Name": "El padre.",
+                "Timetable": [
+                    " Miércoles a las 20:30"
+                ]
+            },
+            {
+                "Name": "En la piel",
+                "Timetable": [
+                    " Sábado a las 22:30"
+                ]
+            },
+            {
+                "Name": "Eskoff",
+                "Timetable": [
+                    " Sábado a las 20"
+                ]
+            },
+            {
+                "Name": "Othelo",
+                "Timetable": [
+                    " Jueves y Viernes a las 20"
+                ]
+            },
+            {
+                "Name": "Tierra Partida, lo demás no importa nada",
+                "Timetable": [
+                    " Domingo a las 20:15"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "249",
+        "Name": "Carlos Carella",
+        "Address": "Carlos Carella, Bartolomé Mitre 970",
+        "Shows": [
+            {
+                "Name": "Los fantasmas de Florencio y la tenebrosa tierra de la imaginación",
+                "Timetable": [
+                    " Sábado y Domingo a las 16"
+                ]
+            },
+            {
+                "Name": "Tenemos visitas",
+                "Timetable": [
+                    " Viernes a las 20",
+                    " Sábado a las 21"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "231",
+        "Name": "El Galpón de Catalinas",
+        "Address": "El Galpón de Catalinas, Pérez Galdós 93",
+        "Shows": [
+            {
+                "Name": "Cacaprichos de un rey",
+                "Timetable": [
+                    " Domingo a las 16:30"
+                ]
+            },
+            {
+                "Name": "El fulgor argentino",
+                "Timetable": [
+                    " Sábado a las 22"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "1602",
+        "Name": "Espacio de Arte G104",
+        "Address": "Espacio de Arte G104, Gascón 104",
+        "Shows": [
+            {
+                "Name": "Esa cosa",
+                "Timetable": [
+                    " Sábado a las 22:30"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "802",
+        "Name": "Museo de los Niños Abasto",
+        "Address": "Museo de los Niños Abasto, Corrientes 3247 Nivel 2",
+        "Shows": [
+            {
+                "Name": "¡Una ciudad para jugar y aprender!",
+                "Timetable": [
+                    " Martes a Domingo a las 13"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "288",
+        "Name": "Sarmiento",
+        "Address": "Sarmiento, Av. Sarmiento, 2715",
+        "Shows": [
+            {
+                "Name": "Próximo",
+                "Timetable": [
+                    " Miércoles a Sábado a las 21"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "1787",
+        "Name": "Teatro Roma",
+        "Address": "Teatro Roma, Sarmiento 109, Avellaneda",
+        "Shows": [
+            {
+                "Name": "El cadete de Navarro",
+                "Timetable": [
+                    " Viernes a las 20:30"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "767",
+        "Name": "Cabildo",
+        "Address": "Cabildo, Cabildo, 4740",
+        "Shows": [
+            {
+                "Name": "Con-migo",
+                "Timetable": [
+                    " Viernes a las 21:30"
+                ]
+            },
+            {
+                "Name": "El Principito",
+                "Timetable": [
+                    " Domingo a las 16"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "222",
+        "Name": "Metropolitan Sura",
+        "Address": "Metropolitan Sura, Corrientes 1343",
+        "Shows": [
+            {
+                "Name": "La Granja de Zenón y el Huevo de Oro",
+                "Timetable": [
+                    " Sábado y Domingo a las 16"
+                ]
+            },
+            {
+                "Name": "La madre que los parió",
+                "Timetable": [
+                    " Viernes a las 23",
+                    " Sábado a las 0:30"
+                ]
+            },
+            {
+                "Name": "La omisión de la familia Coleman",
+                "Timetable": [
+                    " Viernes a las 20",
+                    " Domingo a las 21"
+                ]
+            },
+            {
+                "Name": "Los vecinos de arriba",
+                "Timetable": [
+                    " Miércoles y Jueves a las 20",
+                    " Viernes a las 22",
+                    " Sábado a las 20 y 22",
+                    " Domingo a las 19"
+                ]
+            },
+            {
+                "Name": "Nuestras mujeres",
+                "Timetable": [
+                    " Jueves a las 20:30",
+                    " Viernes a las 21",
+                    " Sábado a las 20:30 y 22:30",
+                    " Domingo a las 20"
+                ]
+            },
+            {
+                "Name": "Radagast",
+                "Timetable": [
+                    " Viernes a las 0:15"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "1125",
+        "Name": "Bar Mágico",
+        "Address": "Bar Mágico, Carlos Calvo 1631",
+        "Shows": [
+            {
+                "Name": "Show de magia",
+                "Timetable": [
+                    " Viernes y Sábado a las 21"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "326",
+        "Name": "Nacional Cervantes",
+        "Address": "Nacional Cervantes, Libertad 815",
+        "Shows": [
+            {
+                "Name": "Cimarrón",
+                "Timetable": [
+                    " Viernes y Sábado a las 18"
+                ]
+            },
+            {
+                "Name": "Deseos inquietos",
+                "Timetable": [
+                    " Sábado a las 14:30"
+                ]
+            },
+            {
+                "Name": "La Guiada",
+                "Timetable": [
+                    " Sábado a las 11"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "283",
+        "Name": "Lola Membrives",
+        "Address": "Lola Membrives, Corrientes 1280",
+        "Shows": [
+            {
+                "Name": "Sugar",
+                "Timetable": [
+                    " Miércoles y Jueves a las 20:30",
+                    " Viernes a las 21",
+                    " Sábado a las 19:30 y 22:30",
+                    " Domingo a las 20"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "608",
+        "Name": "Auditorio UPB",
+        "Address": "Auditorio UPB, Campos Salles 2145",
+        "Shows": [
+            {
+                "Name": "Agua",
+                "Timetable": [
+                    " Domingo a las 17"
+                ]
+            },
+            {
+                "Name": "Caídos del mapa",
+                "Timetable": [
+                    " Sábado a las 19"
+                ]
+            },
+            {
+                "Name": "Criminal",
+                "Timetable": [
+                    " Sábado a las 21"
+                ]
+            },
+            {
+                "Name": "La casa de los ruidos",
+                "Timetable": [
+                    " Domingo a las 15"
+                ]
+            },
+            {
+                "Name": "La inquebrantable voluntad del mundo por acabarse",
+                "Timetable": [
+                    " Domingo a las 21"
+                ]
+            },
+            {
+                "Name": "Tengo a mi abuelo en el ropero",
+                "Timetable": [
+                    " Sábado a las 17"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "315",
+        "Name": "Gran Rex",
+        "Address": "Gran Rex, Corrientes 857",
+        "Shows": [
+            {
+                "Name": "Peppa Pig",
+                "Timetable": [
+                    " Sábado 8",
+                    " Domingo 9",
+                    " Viernes 14",
+                    " Sábado 15",
+                    " Domingo 16",
+                    " Martes 18",
+                    " Miércoles 19",
+                    " Jueves 20",
+                    " Viernes 21",
+                    " Sábado 22",
+                    " Domingo 23",
+                    " Martes 25",
+                    " Miércoles 26",
+                    " Jueves 27",
+                    " Viernes 28",
+                    " Sábado 29",
+                    " Domingo 30 de Julio a las 12"
+                ]
+            },
+            {
+                "Name": "Peter Pan, todos podemos volar",
+                "Timetable": [
+                    " Viernes 7 a las 18",
+                    " Sábado 8",
+                    " Domingo 9",
+                    " Sábado 15",
+                    " Domingo 16 a las 15:30 y 18",
+                    " Martes 18",
+                    " Miércoles 19",
+                    " Jueves 20",
+                    " Viernes 21 de Julio a las 15:30"
+                ]
+            },
+            {
+                "Name": "Peter Pan, todos podemos volar",
+                "Timetable": [
+                    " Viernes a las 18",
+                    " Sábado y Domingo a las 15:30 y 18"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "199",
+        "Name": "Maipo",
+        "Address": "Maipo, Esmeralda 443",
+        "Shows": [
+            {
+                "Name": "Mamapunk",
+                "Timetable": [
+                    " Viernes a las 23:30"
+                ]
+            },
+            {
+                "Name": "Marco Polo",
+                "Timetable": [
+                    " Sábado y Domingo a las 16"
+                ]
+            },
+            {
+                "Name": "Obra de Dios",
+                "Timetable": [
+                    " Viernes a Domingo a las 20:30"
+                ]
+            },
+            {
+                "Name": "The Rocky Horror Show",
+                "Timetable": [
+                    " Martes a las 21:15"
+                ]
+            },
+            {
+                "Name": "¡Ay, amor divino!",
+                "Timetable": [
+                    " Lunes a las 20:30"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "705",
+        "Name": "Centro Cultural de la Cooperación",
+        "Address": "Centro Cultural de la Cooperación, Corrientes 1543",
+        "Shows": [
+            {
+                "Name": "74 días de otoño",
+                "Timetable": [
+                    " Viernes a las 20:15"
+                ]
+            },
+            {
+                "Name": "Aquel loco elenco",
+                "Timetable": [
+                    " Sábado y Domingo a las 16:30"
+                ]
+            },
+            {
+                "Name": "El viaje de Azul",
+                "Timetable": [
+                    " Sábado a las 16"
+                ]
+            },
+            {
+                "Name": "Frida Kahlo (luces y sombras)",
+                "Timetable": [
+                    " Sábado a las 20"
+                ]
+            },
+            {
+                "Name": "Gato en tu balcón",
+                "Timetable": [
+                    " Sábado a las 22:15"
+                ]
+            },
+            {
+                "Name": "Juegos de amor y de guerra",
+                "Timetable": [
+                    " Viernes y Sábado a las 22:30",
+                    " Domingo a las 20"
+                ]
+            },
+            {
+                "Name": "La discreta enamorada",
+                "Timetable": [
+                    " Viernes y Sábado a las 20"
+                ]
+            },
+            {
+                "Name": "Los golpes de Clara",
+                "Timetable": [
+                    " Sábado a las 20:30"
+                ]
+            },
+            {
+                "Name": "Mío!",
+                "Timetable": [
+                    " Viernes a las 21:30"
+                ]
+            },
+            {
+                "Name": "Mitad y mitad",
+                "Timetable": [
+                    " Sábado y Domingo a las 15:45"
+                ]
+            },
+            {
+                "Name": "Mr. Xpender",
+                "Timetable": [
+                    " Sábado a las 22:45"
+                ]
+            },
+            {
+                "Name": "Partida...la espero alegre",
+                "Timetable": [
+                    " Domingo a las 19:30"
+                ]
+            },
+            {
+                "Name": "Un tigre en el gallinero",
+                "Timetable": [
+                    " Domingo a las 16"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "1005",
+        "Name": "Taconeando La Vereda de Beba",
+        "Address": "Taconeando La Vereda de Beba, Balcarce 725",
+        "Shows": [
+            {
+                "Name": "Cena - Show: Taconeando",
+                "Timetable": [
+                    " Jueves a Sábado a las 21"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "1613",
+        "Name": "La Vieja Guarida",
+        "Address": "La Vieja Guarida, Guardia Vieja 3777",
+        "Shows": [
+            {
+                "Name": "Yendo del diván a la milonga",
+                "Timetable": [
+                    " Sábado a las 20:30"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "632",
+        "Name": "Del Abasto",
+        "Address": "Del Abasto, Humahuaca 3549",
+        "Shows": [
+            {
+                "Name": "Casa Linguee",
+                "Timetable": [
+                    " Miércoles a las 21"
+                ]
+            },
+            {
+                "Name": "Ego tu alter app",
+                "Timetable": [
+                    " Sábado a las 23:30"
+                ]
+            },
+            {
+                "Name": "Empleados",
+                "Timetable": [
+                    " Viernes a las 23:30"
+                ]
+            },
+            {
+                "Name": "Gobernar es poblar",
+                "Timetable": [
+                    " Martes a las 21:30"
+                ]
+            },
+            {
+                "Name": "La mujer del don",
+                "Timetable": [
+                    " Sábado a las 21"
+                ]
+            },
+            {
+                "Name": "Las viajantes",
+                "Timetable": [
+                    " Lunes a las 21"
+                ]
+            },
+            {
+                "Name": "Ya no hay tranvías en el desierto de Texas",
+                "Timetable": [
+                    " Domingo a las 18"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "666",
+        "Name": "Boedo XXI",
+        "Address": "Boedo XXI, Boedo 853",
+        "Shows": [
+            {
+                "Name": "Alfonsina y el hombre oscuro",
+                "Timetable": [
+                    " Domingo a las 20"
+                ]
+            },
+            {
+                "Name": "El misterio de las brujas de Boedo",
+                "Timetable": [
+                    " Sábado a las 16"
+                ]
+            },
+            {
+                "Name": "Gracias a la tostadora",
+                "Timetable": [
+                    " Viernes a las 21:30"
+                ]
+            },
+            {
+                "Name": "Yo...Argentina ¿Y qué?",
+                "Timetable": [
+                    " Sábado a las 21"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "1521",
+        "Name": "Astros",
+        "Address": "Astros, Av. Corrientes 746",
+        "Shows": [
+            {
+                "Name": "Astros de la risa",
+                "Timetable": [
+                    " Sábado a las 21:30",
+                    " Domingo a las 20:30"
+                ]
+            },
+            {
+                "Name": "Panam y Circo",
+                "Timetable": [
+                    " Viernes a las 17:30",
+                    " Sábado y Domingo a las 14:30"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "340",
+        "Name": "La Plaza",
+        "Address": "La Plaza, Corrientes 1660",
+        "Shows": [
+            {
+                "Name": "Fucking Fucking Yeah Yeah",
+                "Timetable": [
+                    " Jueves a las 23",
+                    " Viernes y Sábado a las 0:15"
+                ]
+            },
+            {
+                "Name": "La puerta de al lado",
+                "Timetable": [
+                    " Miércoles a las 20:15",
+                    " Jueves a las 22",
+                    " Viernes y Sábado a las 22:15",
+                    " Domingo a las 21"
+                ]
+            },
+            {
+                "Name": "Los puentes de Madison",
+                "Timetable": [
+                    " Miércoles y Jueves a las 20:30",
+                    " Viernes y Sábado a las 20 y 22",
+                    " Domingo a las 20:30"
+                ]
+            },
+            {
+                "Name": "Pucha",
+                "Timetable": [
+                    " Viernes y Sábado a las 0:30"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "540",
+        "Name": "El Excéntrico de la 18º",
+        "Address": "El Excéntrico de la 18º, Lerma 420",
+        "Shows": [
+            {
+                "Name": "Donde duermen los grillos",
+                "Timetable": [
+                    " Sábado a las 20"
+                ]
+            },
+            {
+                "Name": "El mal que aqueja",
+                "Timetable": [
+                    " Sábado a las 22:30"
+                ]
+            },
+            {
+                "Name": "Nadadoras",
+                "Timetable": [
+                    " Domingo a las 18"
+                ]
+            },
+            {
+                "Name": "Preciosos instrumentos",
+                "Timetable": [
+                    " Viernes a las 23"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "1016",
+        "Name": "Paseo La Plaza - Terraza",
+        "Address": "Paseo La Plaza - Terraza, Corrientes 1660",
+        "Shows": [
+            {
+                "Name": "2x3 llueve",
+                "Timetable": [
+                    " Sábado a las 22:15"
+                ]
+            },
+            {
+                "Name": "Ana y Elsa un musical entre hielos",
+                "Timetable": [
+                    " Sábado y Domingo a las 17:30"
+                ]
+            },
+            {
+                "Name": "Peter Pan y las aventuras del Nunca Jamás",
+                "Timetable": [
+                    " Sábado y Domingo a las 15:30"
+                ]
+            },
+            {
+                "Name": "Sirenita, una aventura bajo el mar",
+                "Timetable": [
+                    " Sábado y Domingo a las 16:30"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "1258",
+        "Name": "Complejo Tango",
+        "Address": "Complejo Tango, Av. Belgrano 2608",
+        "Shows": [
+            {
+                "Name": "Cena - Show: Complejo Tango",
+                "Timetable": [
+                    " Lunes a Domingo a las 20:30"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "468",
+        "Name": "De la Fábula",
+        "Address": "De la Fábula, Agüero 444",
+        "Shows": [
+            {
+                "Name": "Angela y Celita",
+                "Timetable": [
+                    " Sábado a las 21"
+                ]
+            },
+            {
+                "Name": "Bella y Bestia",
+                "Timetable": [
+                    " Sábado a las 17"
+                ]
+            },
+            {
+                "Name": "El Imperio Helado, el gran musical",
+                "Timetable": [
+                    " Domingo a las 17"
+                ]
+            },
+            {
+                "Name": "Las sillas",
+                "Timetable": [
+                    " Viernes a las 20:30"
+                ]
+            },
+            {
+                "Name": "Un mundo de princesas",
+                "Timetable": [
+                    " Sábado y Domingo a las 15:30"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "1734",
+        "Name": "La Gloria Espacio Teatral",
+        "Address": "La Gloria Espacio Teatral, Yatay 890",
+        "Shows": [
+            {
+                "Name": "Divinas Glorias",
+                "Timetable": [
+                    " Sábado a las 21"
+                ]
+            },
+            {
+                "Name": "La Chinagueña o El rancho de las mutaciones",
+                "Timetable": [
+                    " Domingo a las 19:30"
+                ]
+            },
+            {
+                "Name": "Lepidóptera",
+                "Timetable": [
+                    " Viernes a las 21:30"
+                ]
+            },
+            {
+                "Name": "Libremente cautivos",
+                "Timetable": [
+                    " Jueves a las 21"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "653",
+        "Name": "Espacio Aguirre",
+        "Address": "Espacio Aguirre, Aguirre 1270",
+        "Shows": [
+            {
+                "Name": "Chicos, chicos",
+                "Timetable": [
+                    " Viernes a las 23:30"
+                ]
+            },
+            {
+                "Name": "Croma",
+                "Timetable": [
+                    " Sábado a las 20"
+                ]
+            },
+            {
+                "Name": "Cuentos que cuenta el cuerpo",
+                "Timetable": [
+                    " Domingo a las 16"
+                ]
+            },
+            {
+                "Name": "Hamlet: Príncipe de Barracas",
+                "Timetable": [
+                    " Domingo a las 19"
+                ]
+            },
+            {
+                "Name": "Moby Dick",
+                "Timetable": [
+                    " Sábado a las 17"
+                ]
+            },
+            {
+                "Name": "Vértigo",
+                "Timetable": [
+                    " Jueves a las 21"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "1783",
+        "Name": "Ludé",
+        "Address": "Ludé, Montevideo 842",
+        "Shows": [
+            {
+                "Name": "El Reino de María Elena Walsh",
+                "Timetable": [
+                    " Sábado y Domingo a las 15:30"
+                ]
+            },
+            {
+                "Name": "Entre ella y yo",
+                "Timetable": [
+                    " Viernes y Sábado a las 22:30"
+                ]
+            },
+            {
+                "Name": "Gardel, el musical",
+                "Timetable": [
+                    " Domingo a las 19"
+                ]
+            },
+            {
+                "Name": "La herencia de Eszter",
+                "Timetable": [
+                    " Viernes y Sábado a las 20"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "487",
+        "Name": "Multiteatro",
+        "Address": "Multiteatro, Corrientes 1283",
+        "Shows": [
+            {
+                "Name": "Como el culo",
+                "Timetable": [
+                    " Viernes a las 21:30",
+                    " Sábado a las 20:30 y 22:45",
+                    " Domingo a las 20:30"
+                ]
+            },
+            {
+                "Name": "Falladas",
+                "Timetable": [
+                    " Miércoles y Jueves a las 20",
+                    " Viernes a las 21",
+                    " Sábado a las 20 y 22",
+                    " Domingo a las 20"
+                ]
+            },
+            {
+                "Name": "TOC TOC",
+                "Timetable": [
+                    " Miércoles a Viernes a las 20:30",
+                    " Sábado a las 20:30 y 23",
+                    " Domingo a las 20:30"
+                ]
+            },
+            {
+                "Name": "Todas las rayuelas",
+                "Timetable": [
+                    " Miércoles a Domingo a las 20"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "1716",
+        "Name": "Palacio La Argentina",
+        "Address": "Palacio La Argentina, Rodríguez Peña 361",
+        "Shows": [
+            {
+                "Name": "El Trío del Humor",
+                "Timetable": [
+                    " Lunes a las 21"
+                ]
+            },
+            {
+                "Name": "Extinguidas",
+                "Timetable": [
+                    " Sábado a las 21:30"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "1264",
+        "Name": "Esquina Homero Manzi",
+        "Address": "Esquina Homero Manzi, San Juan 3601 y Boedo",
+        "Shows": [
+            {
+                "Name": "Cena - Show: Esquina Homero Manzi",
+                "Timetable": [
+                    " Lunes a Domingo a las 21"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "181",
+        "Name": "La Comedia",
+        "Address": "La Comedia, Rodríguez Peña 1062",
+        "Shows": [
+            {
+                "Name": "Canciones en tranvía",
+                "Timetable": [
+                    " Sábado y Domingo a las 15"
+                ]
+            },
+            {
+                "Name": "Canela y Ron",
+                "Timetable": [
+                    " Domingo a las 20:15"
+                ]
+            },
+            {
+                "Name": "Conversaciones",
+                "Timetable": [
+                    " Martes a las 21"
+                ]
+            },
+            {
+                "Name": "De profesión maternal..",
+                "Timetable": [
+                    " Domingo a las 20:15"
+                ]
+            },
+            {
+                "Name": "Doble o nada",
+                "Timetable": [
+                    " Jueves y Viernes a las 21",
+                    " Sábado a las 20:30 y 22:30",
+                    " Domingo a las 20"
+                ]
+            },
+            {
+                "Name": "Dr. Lacan",
+                "Timetable": [
+                    " Sábado a las 21:30"
+                ]
+            },
+            {
+                "Name": "El servidor",
+                "Timetable": [
+                    " Miércoles a las 21:15"
+                ]
+            },
+            {
+                "Name": "Jorobado, el encierro de un cornudo",
+                "Timetable": [
+                    " Sábado a las 20:45"
+                ]
+            },
+            {
+                "Name": "La joya más preciada",
+                "Timetable": [
+                    " Sábado a las 22:15"
+                ]
+            },
+            {
+                "Name": "Pedir demasiado.",
+                "Timetable": [
+                    " Viernes a las 21:15"
+                ]
+            },
+            {
+                "Name": "Rehenes",
+                "Timetable": [
+                    " Viernes a las 21:15"
+                ]
+            },
+            {
+                "Name": "Simple",
+                "Timetable": [
+                    " Domingo a las 17"
+                ]
+            },
+            {
+                "Name": "Soy paciente",
+                "Timetable": [
+                    " Jueves a las 20:30"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "881",
+        "Name": "Corrientes Azul",
+        "Address": "Corrientes Azul, Corrientes 5965",
+        "Shows": [
+            {
+                "Name": "Doménico enjuiciado",
+                "Timetable": [
+                    " Jueves a las 20"
+                ]
+            },
+            {
+                "Name": "El sabor",
+                "Timetable": [
+                    " Domingo a las 20"
+                ]
+            },
+            {
+                "Name": "El triste final de Chiche P.",
+                "Timetable": [
+                    " Viernes a las 21"
+                ]
+            },
+            {
+                "Name": "Esperando al zurdo",
+                "Timetable": [
+                    " Sábado a las 21"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "360",
+        "Name": "Teatro San Martín",
+        "Address": "Teatro San Martín, Corrientes 1530",
+        "Shows": [
+            {
+                "Name": "La farsa de los ausentes",
+                "Timetable": [
+                    " Jueves a Sábado a las 20:30"
+                ]
+            },
+            {
+                "Name": "Parias",
+                "Timetable": [
+                    " Miércoles a Sábado a las 20"
+                ]
+            },
+            {
+                "Name": "Saltimbanquis",
+                "Timetable": [
+                    " Sábado a las 15"
+                ]
+            },
+            {
+                "Name": "Umbrío",
+                "Timetable": [
+                    " Jueves a Sábado a las 20"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "744",
+        "Name": "La Tertulia",
+        "Address": "La Tertulia, Gallo 826",
+        "Shows": [
+            {
+                "Name": "feliz año nuevo",
+                "Timetable": [
+                    " Sábado a las 23"
+                ]
+            },
+            {
+                "Name": "La noche anterior",
+                "Timetable": [
+                    " Domingo a las 20:30"
+                ]
+            },
+            {
+                "Name": "Pronóstico reservado",
+                "Timetable": [
+                    " Viernes a las 21"
+                ]
+            },
+            {
+                "Name": "Quimera de un artista",
+                "Timetable": [
+                    " Sábado a las 21"
+                ]
+            },
+            {
+                "Name": "Simplemente sucede",
+                "Timetable": [
+                    " Domingo a las 18:30"
+                ]
+            },
+            {
+                "Name": "Un lugar de desencuentros llamado amor.",
+                "Timetable": [
+                    " Viernes a las 23"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "858",
+        "Name": "Broadway",
+        "Address": "Broadway, Corrientes 1155",
+        "Shows": [
+            {
+                "Name": "Mahatma: Alma grande",
+                "Timetable": [
+                    " Miércoles a Viernes a las 20:30",
+                    " Sábado a las 20 y 22:30",
+                    " Domingo a las 20"
+                ]
+            },
+            {
+                "Name": "Taboo, animate a lo prohibido",
+                "Timetable": [
+                    " Sábado a la 1:00"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "1792",
+        "Name": "La revuelta teatro",
+        "Address": "La revuelta teatro, Av. Boedo 1014",
+        "Shows": [
+            {
+                "Name": "A comer con levadura",
+                "Timetable": [
+                    " Sábado a las 16"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "706",
+        "Name": "Chacarerean Teatre",
+        "Address": "Chacarerean Teatre, Nicaragua 5565",
+        "Shows": [
+            {
+                "Name": "Barullo, emoción violenta",
+                "Timetable": [
+                    " Sábado a las 22"
+                ]
+            },
+            {
+                "Name": "Candy Crush Saga",
+                "Timetable": [
+                    " Lunes a las 20:30"
+                ]
+            },
+            {
+                "Name": "Improvisa2",
+                "Timetable": [
+                    " Sábado a las 23:45"
+                ]
+            },
+            {
+                "Name": "Noche de paz..",
+                "Timetable": [
+                    " Domingo a las 20"
+                ]
+            },
+            {
+                "Name": "Pipi, el niño perdido",
+                "Timetable": [
+                    " Domingo a las 16:30"
+                ]
+            },
+            {
+                "Name": "Soy valiente",
+                "Timetable": [
+                    " Sábado a las 17"
+                ]
+            },
+            {
+                "Name": "Un judio común y corriente",
+                "Timetable": [
+                    " Sábado a las 20"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "526",
+        "Name": "ELKAFKA",
+        "Address": "ELKAFKA, Lambaré 866",
+        "Shows": [
+            {
+                "Name": "Código Tartufo. Moliére 1975",
+                "Timetable": [
+                    " Viernes a las 23"
+                ]
+            },
+            {
+                "Name": "Once hijos",
+                "Timetable": [
+                    " Domingo a las 21"
+                ]
+            },
+            {
+                "Name": "Pescando en la bañera",
+                "Timetable": [
+                    " Viernes a las 20"
+                ]
+            },
+            {
+                "Name": "Republiquetas (1816 año terrible)",
+                "Timetable": [
+                    " Domingo a las 18"
+                ]
+            },
+            {
+                "Name": "Ricardo III",
+                "Timetable": [
+                    " Sábado a las 19:45"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "661",
+        "Name": "Taller del Angel",
+        "Address": "Taller del Angel, Mario Bravo 1239",
+        "Shows": [
+            {
+                "Name": "La guerra perdida",
+                "Timetable": [
+                    " Sábado a las 20"
+                ]
+            },
+            {
+                "Name": "Mujeres que cocinan con huevos",
+                "Timetable": [
+                    " Viernes a las 21"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "943",
+        "Name": "El Fino",
+        "Address": "El Fino, Paraná 673. 1º Piso",
+        "Shows": [
+            {
+                "Name": "Vocación de vuelo",
+                "Timetable": [
+                    " Viernes y Sábado a las 21"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "799",
+        "Name": "Luisa Vehil",
+        "Address": "Luisa Vehil, H. Yrigoyen 3133",
+        "Shows": [
+            {
+                "Name": "Damas y caballeros",
+                "Timetable": [
+                    " Sábado a las 19:30"
+                ]
+            },
+            {
+                "Name": "Imperial ruso",
+                "Timetable": [
+                    " Sábado a las 22"
+                ]
+            },
+            {
+                "Name": "Los oscuros secretos",
+                "Timetable": [
+                    " Viernes a las 21"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "1438",
+        "Name": "Timbre 4 - Sala México",
+        "Address": "Timbre 4 - Sala México, México 3554",
+        "Shows": [
+            {
+                "Name": "Constanza Muere",
+                "Timetable": [
+                    " Domingo a las 17"
+                ]
+            },
+            {
+                "Name": "Cronología de las bestias",
+                "Timetable": [
+                    " Viernes a las 21:30",
+                    " Domingo a las 19"
+                ]
+            },
+            {
+                "Name": "Dínamo",
+                "Timetable": [
+                    " Viernes a las 23"
+                ]
+            },
+            {
+                "Name": "El declive",
+                "Timetable": [
+                    " Sábado a las 20:30"
+                ]
+            },
+            {
+                "Name": "Fuego todo",
+                "Timetable": [
+                    " Viernes a las 23:30"
+                ]
+            },
+            {
+                "Name": "Fugaz",
+                "Timetable": [
+                    " Viernes a las 20:45"
+                ]
+            },
+            {
+                "Name": "La piel del poema",
+                "Timetable": [
+                    " Sábado a las 23:30"
+                ]
+            },
+            {
+                "Name": "La suerte de la fea",
+                "Timetable": [
+                    " Domingo a las 16 y 17"
+                ]
+            },
+            {
+                "Name": "La voluntad",
+                "Timetable": [
+                    " Jueves a las 20:30"
+                ]
+            },
+            {
+                "Name": "Recordar 30 años para vivir 65 minutos",
+                "Timetable": [
+                    " Domingo a las 19:15"
+                ]
+            },
+            {
+                "Name": "Tercer cuerpo",
+                "Timetable": [
+                    " Domingo a las 21:30"
+                ]
+            },
+            {
+                "Name": "Un día voy a morir",
+                "Timetable": [
+                    " Domingo a las 21"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "1738",
+        "Name": "Border",
+        "Address": "Border, Godoy Cruz 1838",
+        "Shows": [
+            {
+                "Name": "Coach",
+                "Timetable": [
+                    " Domingo a las 20"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "1017",
+        "Name": "Paseo La Plaza - Colette",
+        "Address": "Paseo La Plaza - Colette, Corrientes 1660",
+        "Shows": [
+            {
+                "Name": "Héroes y Villanos en la juguetería",
+                "Timetable": [
+                    " Sábado y Domingo a las 15:30"
+                ]
+            },
+            {
+                "Name": "Princesas congeladas",
+                "Timetable": [
+                    " Sábado y Domingo a las 15:30 y 17"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "541",
+        "Name": "Patio de Actores",
+        "Address": "Patio de Actores, Lerma 568",
+        "Shows": [
+            {
+                "Name": "Contando a mi abuelo Juan Bosch, tres relatos",
+                "Timetable": [
+                    " Sábado a las 19:30"
+                ]
+            },
+            {
+                "Name": "El ciclo",
+                "Timetable": [
+                    " Viernes a las 22:30"
+                ]
+            },
+            {
+                "Name": "Medea del Olimar",
+                "Timetable": [
+                    " Sábado a las 23"
+                ]
+            },
+            {
+                "Name": "Presidio, la máquina de la histeria",
+                "Timetable": [
+                    " Sábado a las 17"
+                ]
+            },
+            {
+                "Name": "Teresa",
+                "Timetable": [
+                    " Domingo a las 18"
+                ]
+            },
+            {
+                "Name": "Una furia patria",
+                "Timetable": [
+                    " Martes a las 20:30"
+                ]
+            },
+            {
+                "Name": "Ya nadie nota tu dolor",
+                "Timetable": [
+                    " Sábado a las 21:30"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "530",
+        "Name": "IFT",
+        "Address": "IFT, Boulogne Sur Mer 549",
+        "Shows": [
+            {
+                "Name": "Bollywood, una industria sin estrellas",
+                "Timetable": [
+                    " Viernes a las 22",
+                    " Sábado a las 22 y 0:00",
+                    " Domingo a las 22"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "1244",
+        "Name": "Bar Sur",
+        "Address": "Bar Sur, Estados Unidos 299",
+        "Shows": [
+            {
+                "Name": "Tango - Danza - Show",
+                "Timetable": [
+                    " Lunes a Domingo a las 21"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "960",
+        "Name": "Piazzolla Tango",
+        "Address": "Piazzolla Tango, Florida 165 Galería Guemes",
+        "Shows": [
+            {
+                "Name": "Cena - Show: Piazzolla Tango",
+                "Timetable": [
+                    " Lunes a Domingo a las 20:30"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "220",
+        "Name": "Del Pueblo",
+        "Address": "Del Pueblo, Roque Sáenz Peña 943",
+        "Shows": [
+            {
+                "Name": "Coronado de gloria",
+                "Timetable": [
+                    " Jueves a las 20"
+                ]
+            },
+            {
+                "Name": "Gángster",
+                "Timetable": [
+                    " Sábado a las 22"
+                ]
+            },
+            {
+                "Name": "La carta silenciada. Isabel de Guevara",
+                "Timetable": [
+                    " Lunes a las 20"
+                ]
+            },
+            {
+                "Name": "Los sirvientes",
+                "Timetable": [
+                    " Sábado a las 20"
+                ]
+            },
+            {
+                "Name": "Miembro del jurado",
+                "Timetable": [
+                    " Lunes a las 20"
+                ]
+            },
+            {
+                "Name": "Terrenal",
+                "Timetable": [
+                    " Jueves a las 20",
+                    " Viernes y Sábado a las 21",
+                    " Domingo a las 20"
+                ]
+            },
+            {
+                "Name": "Yo, Encarnación",
+                "Timetable": [
+                    " Domingo a las 17"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "386",
+        "Name": "Opera",
+        "Address": "Opera, Av. Corrientes 860",
+        "Shows": [
+            {
+                "Name": "Midachi",
+                "Timetable": [
+                    " Viernes a las 21",
+                    " Sábado a las 21 y 23:30",
+                    " Domingo a las 20:30"
+                ]
+            },
+            {
+                "Name": "Topa",
+                "Timetable": [
+                    " Sábado y Domingo a las 15 y 17:30"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "1503",
+        "Name": "El Extranjero",
+        "Address": "El Extranjero, Valentín Gómez 3378",
+        "Shows": [
+            {
+                "Name": "Mapa del Tiempo",
+                "Timetable": [
+                    " Sábado a las 23"
+                ]
+            },
+            {
+                "Name": "Menea para mí",
+                "Timetable": [
+                    " Domingo a las 21"
+                ]
+            },
+            {
+                "Name": "Millones de segundos",
+                "Timetable": [
+                    " Domingo a las 18:30"
+                ]
+            },
+            {
+                "Name": "Nadie quiere ser nadie (historias de la clase media)",
+                "Timetable": [
+                    " Sábado a las 21"
+                ]
+            },
+            {
+                "Name": "Orfeo y Eurídice",
+                "Timetable": [
+                    " Viernes a las 23"
+                ]
+            },
+            {
+                "Name": "Potranca (el galope de la historia)",
+                "Timetable": [
+                    " Sábado a las 19"
+                ]
+            },
+            {
+                "Name": "Segunda princesa",
+                "Timetable": [
+                    " Jueves a las 21"
+                ]
+            },
+            {
+                "Name": "Walsh, todas las revoluciones juntas",
+                "Timetable": [
+                    " Sábado a las 17"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "1418",
+        "Name": "Dandelion",
+        "Address": "Dandelion, Av. Córdoba 2429",
+        "Shows": [
+            {
+                "Name": "23344 (si cae en default, cae en default)",
+                "Timetable": [
+                    " Viernes y Sábado a las 21"
+                ]
+            },
+            {
+                "Name": "Con las manos atadas",
+                "Timetable": [
+                    " Domingo a las 18"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "1346",
+        "Name": "Sala Siranush",
+        "Address": "Sala Siranush, Armenia 1353",
+        "Shows": [
+            {
+                "Name": "Campa: Jugo y confusión",
+                "Timetable": [
+                    " Sábado a las 23:59"
+                ]
+            },
+            {
+                "Name": "Joe Fernández",
+                "Timetable": [
+                    " Viernes a las 23:59"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "942",
+        "Name": "Museo Larreta",
+        "Address": "Museo Larreta, Mendoza 2250",
+        "Shows": [
+            {
+                "Name": "Aladino, mi abuela es una genia",
+                "Timetable": [
+                    " Sábado y Domingo a las 17"
+                ]
+            },
+            {
+                "Name": "C. Niciento",
+                "Timetable": [
+                    " Sábado y Domingo a las 15:45"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "1672",
+        "Name": "La Mueca Teatro",
+        "Address": "La Mueca Teatro, Cabrera 4255",
+        "Shows": [
+            {
+                "Name": "Código pirata y el cofre de las princesas",
+                "Timetable": [
+                    " Sábado a las 16"
+                ]
+            },
+            {
+                "Name": "El lugar",
+                "Timetable": [
+                    " Sábado a las 18"
+                ]
+            },
+            {
+                "Name": "Fondo blanco",
+                "Timetable": [
+                    " Sábado a las 20:30"
+                ]
+            },
+            {
+                "Name": "La triste historia de Homar con H",
+                "Timetable": [
+                    " Sábado a las 23"
+                ]
+            },
+            {
+                "Name": "Le Petit Café Show",
+                "Timetable": [
+                    " Jueves a las 22"
+                ]
+            },
+            {
+                "Name": "Los convocados",
+                "Timetable": [
+                    " Viernes a las 22:30"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "482",
+        "Name": "Belisario Teatro",
+        "Address": "Belisario Teatro, Corrientes 1624",
+        "Shows": [
+            {
+                "Name": "Ahora Homenaje a la Commedia dell`arte",
+                "Timetable": [
+                    " Sábado a las 22:30"
+                ]
+            },
+            {
+                "Name": "Madre e hijo",
+                "Timetable": [
+                    " Viernes a las 23"
+                ]
+            },
+            {
+                "Name": "Tamorto",
+                "Timetable": [
+                    " Viernes a las 21"
+                ]
+            },
+            {
+                "Name": "Vivo",
+                "Timetable": [
+                    " Domingo a las 20"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "1712",
+        "Name": "Teatro Buenos Aires",
+        "Address": "Teatro Buenos Aires, Rodriguez Peña 411",
+        "Shows": [
+            {
+                "Name": "5gays.com",
+                "Timetable": [
+                    " Domingo a las 20"
+                ]
+            },
+            {
+                "Name": "Confesiones de mujeres de 30",
+                "Timetable": [
+                    " Jueves y Viernes a las 21",
+                    " Sábado a las 21:30"
+                ]
+            },
+            {
+                "Name": "Divas",
+                "Timetable": [
+                    " Sábado a las 23:30"
+                ]
+            },
+            {
+                "Name": "El cuarto espejo",
+                "Timetable": [
+                    " Miércoles a las 20:30"
+                ]
+            },
+            {
+                "Name": "Madre amadísima",
+                "Timetable": [
+                    " Lunes a las 21"
+                ]
+            },
+            {
+                "Name": "Padre Patria",
+                "Timetable": [
+                    " Miércoles a las 22:30"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "878",
+        "Name": "Teatro Colón",
+        "Address": "Teatro Colón, Libertad 621",
+        "Shows": [
+            {
+                "Name": "El Caballero de la Rosa",
+                "Timetable": [
+                    " Martes 18",
+                    " Viernes 21",
+                    " Sábado 22 a las 20",
+                    " Domingo 23 a las 17",
+                    " Martes 25 de Julio a las 20"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "665",
+        "Name": "Ciudad Cultural Konex",
+        "Address": "Ciudad Cultural Konex, Sarmiento 3131",
+        "Shows": [
+            {
+                "Name": "La Bella Durmiente y las Hadas Encantadas",
+                "Timetable": [
+                    " Domingo a las 11"
+                ]
+            },
+            {
+                "Name": "La Cenicienta.",
+                "Timetable": [
+                    " Sábado a las 15"
+                ]
+            },
+            {
+                "Name": "Wifi Fest! La fiesta desenchufada",
+                "Timetable": [
+                    " Sábado a las 17:30"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "550",
+        "Name": "Liberarte",
+        "Address": "Liberarte, Corrientes 1555",
+        "Shows": [
+            {
+                "Name": "Criaturas de la noche",
+                "Timetable": [
+                    " Domingo a las 20:30"
+                ]
+            },
+            {
+                "Name": "Depende",
+                "Timetable": [
+                    " Viernes a las 20"
+                ]
+            },
+            {
+                "Name": "Errante en la sombra",
+                "Timetable": [
+                    " Viernes a las 21:30"
+                ]
+            },
+            {
+                "Name": "La casa de Bernarda Alba",
+                "Timetable": [
+                    " Domingo a las 18:30"
+                ]
+            },
+            {
+                "Name": "Nosotras y el cosmos",
+                "Timetable": [
+                    " Sábado a las 20"
+                ]
+            },
+            {
+                "Name": "Una espina en el zapato",
+                "Timetable": [
+                    " Sábado a las 21:30"
+                ]
+            }
+        ]
+    },
+    {
+        "ID": "1710",
+        "Name": "Columbia Teatro",
+        "Address": "Columbia Teatro, Corrientes 1537",
+        "Shows": [
+            {
+                "Name": "Atormentadas",
+                "Timetable": [
+                    " Viernes a las 20:30"
+                ]
+            },
+            {
+                "Name": "Evolution",
+                "Timetable": [
+                    " Sábado a las 0:30"
+                ]
+            },
+            {
+                "Name": "Jugando al Quijote",
+                "Timetable": [
+                    " Sábado y Domingo a las 16"
+                ]
+            },
+            {
+                "Name": "Los árboles mueren de pie",
+                "Timetable": [
+                    " Domingo a las 18"
+                ]
+            },
+            {
+                "Name": "Mi novia es mi novio",
+                "Timetable": [
+                    " Sábado a las 20:30"
+                ]
+            },
+            {
+                "Name": "Qué par de mentirosos",
+                "Timetable": [
+                    " Sábado a las 22:30",
+                    " Domingo a las 21"
+                ]
+            },
+            {
+                "Name": "Salvador",
+                "Timetable": [
+                    " Viernes a las 23"
+                ]
+            }
+        ]
+    }
+]
