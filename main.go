@@ -6,24 +6,23 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"strconv"
 	"strings"
 	"sync"
 
 	"github.com/PuerkitoBio/goquery"
 )
 
-//Show type
-type Show struct {
-	Name      string
-	Timetable []string
+type show struct {
+	name      string
+	timetable []string
 }
 
-//Place type
-type Place struct {
-	ID      string
-	Name    string
-	Address string
-	Shows   []Show
+type place struct {
+	ID      int
+	name    string
+	address string
+	shows   []show
 }
 
 func main() {
@@ -40,8 +39,8 @@ func main() {
 	fmt.Println("Fetching Cinemas from here: ", cinesURL)
 	fmt.Println("Fetching Theaters from here: ", teatrosURL)
 
-	cines := make([]Place, 0, 100)
-	teatros := make([]Place, 0, 50)
+	cines := make([]place, 0, 200)
+	teatros := make([]place, 0, 100)
 
 	if err := fetchPlaces(cinesURL, cineURL, "cine", &cines, &wg); err != nil {
 		log.Printf("error getting places: %v", err)
@@ -53,12 +52,6 @@ func main() {
 
 	wg.Wait()
 
-	for i, p := range cines {
-		log.Printf("Place %d: %s - %s", i, p.Name, p.Address)
-		for j, s := range p.Shows {
-			log.Printf("Show %d: %s", j, s.Name)
-		}
-	}
 	c, err := json.Marshal(cines)
 	if err != nil {
 		log.Printf("error converting to json: %v", err)
@@ -68,8 +61,8 @@ func main() {
 		log.Printf("error converting to json: %v", err)
 	}
 
-	fc, err := os.Create("cine.json")
-	ft, err := os.Create("teatro.json")
+	fc, err := os.Create("cines.json")
+	ft, err := os.Create("teatros.json")
 	defer fc.Close()
 	defer ft.Close()
 
@@ -77,11 +70,9 @@ func main() {
 	wt := bufio.NewWriter(ft)
 	fmt.Fprint(wc, string(c))
 	fmt.Fprint(wt, string(t))
-	// log.Sprint(string(c))
-	// log.Println(string(t))
 }
 
-func fetchPlaces(mainURL, detailsURL, kind string, places *[]Place, wg *sync.WaitGroup) error {
+func fetchPlaces(mainURL, detailsURL, kind string, places *[]place, wg *sync.WaitGroup) error {
 
 	doc, err := goquery.NewDocument(mainURL)
 	if err != nil {
@@ -97,26 +88,25 @@ func fetchPlaces(mainURL, detailsURL, kind string, places *[]Place, wg *sync.Wai
 		if !ok {
 			log.Printf("value is not present")
 		}
-		//newID, err := strconv.Atoi(id)
-		//if err != nil {
-		//	log.Printf("cannot convert string id: %v", err)
-		//}
-		//Hardcoded for testing purpose
+		newID, err := strconv.Atoi(id)
+		if err != nil {
+			log.Printf("cannot convert string id: %v", err)
+		}
 		if id != "0" {
 			go func() {
 				wg.Add(1)
 				defer wg.Done()
-				place := new(Place)
-				place.ID = id
-				place.Name = s.Text()
+				place := new(place)
+				place.ID = newID
+				place.name = s.Text()
 				docDetails, err := goquery.NewDocument(detailsURL + id)
 				if err != nil {
 					return
 				}
 				address := docDetails.Find(".BusquedaResultado").Text()
 				address = standardizeSpaces(address)
-				address = strings.Replace(address, place.Name, place.Name+",", -1)
-				place.Address = address
+				address = strings.Replace(address, place.name, place.name+",", -1)
+				place.address = address
 
 				docDetails.Find("h3").Each(func(i int, s *goquery.Selection) {
 					name := s.Find(".azul").Text()
@@ -128,13 +118,11 @@ func fetchPlaces(mainURL, detailsURL, kind string, places *[]Place, wg *sync.Wai
 						results := strings.Split(timeTable, ",")
 						results = deleteEmpty(results)
 
-						place.Shows = append(place.Shows, Show{Name: name, Timetable: results})
+						place.shows = append(place.shows, show{name: name, timetable: results})
 					}
 				})
-				log.Printf("... %s .......", place.Name)
 				*places = append(*places, *place)
 			}()
-			//log.Printf("address: %p", &place)
 		}
 	})
 	return nil
