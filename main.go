@@ -14,15 +14,16 @@ import (
 )
 
 type show struct {
-	name      string
-	timetable []string
+	Name      string
+	Timetable []string
 }
 
 type place struct {
 	ID      int
-	name    string
-	address string
-	shows   []show
+	Name    string
+	Address string
+	Geocode string
+	Shows   []show
 }
 
 func main() {
@@ -34,50 +35,38 @@ func main() {
 		obraURL    = "http://www.123info.com.ar/salateatro/"
 	)
 
-	var wg sync.WaitGroup
-
 	fmt.Println("Fetching Cinemas from here: ", cinesURL)
 	fmt.Println("Fetching Theaters from here: ", teatrosURL)
 
 	cines := make([]place, 0, 200)
 	teatros := make([]place, 0, 100)
 
-	if err := fetchPlaces(cinesURL, cineURL, "cine", &cines, &wg); err != nil {
+	cines, err := fetchPlaces(cinesURL, cineURL, "cine", cines)
+	if err != nil {
+		log.Printf("error getting places: %v", err)
+	}
+	teatros, err = fetchPlaces(teatrosURL, obraURL, "teatro", teatros)
+	if err != nil {
 		log.Printf("error getting places: %v", err)
 	}
 
-	if err := fetchPlaces(teatrosURL, obraURL, "teatro", &teatros, &wg); err != nil {
-		log.Printf("error getting places: %v", err)
+	if err := saveToJSON(cines, "c.json"); err != nil {
+		log.Printf("Error: %v", err)
 	}
-
-	wg.Wait()
-
-	c, err := json.Marshal(cines)
-	if err != nil {
-		log.Printf("error converting to json: %v", err)
+	if err := saveToJSON(teatros, "t.json"); err != nil {
+		log.Printf("Error: %v", err)
 	}
-	t, err := json.Marshal(teatros)
-	if err != nil {
-		log.Printf("error converting to json: %v", err)
-	}
-
-	fc, err := os.Create("cines.json")
-	ft, err := os.Create("teatros.json")
-	defer fc.Close()
-	defer ft.Close()
-
-	wc := bufio.NewWriter(fc)
-	wt := bufio.NewWriter(ft)
-	fmt.Fprint(wc, string(c))
-	fmt.Fprint(wt, string(t))
 }
 
-func fetchPlaces(mainURL, detailsURL, kind string, places *[]place, wg *sync.WaitGroup) error {
+func fetchPlaces(mainURL, detailsURL, kind string, places []place) ([]place, error) {
+
+	var wg sync.WaitGroup
+	c := make(chan place)
 
 	doc, err := goquery.NewDocument(mainURL)
 	if err != nil {
 		log.Fatal("error", err)
-		return err
+		return nil, err
 	}
 
 	path := "#" + kind + " option"
@@ -92,21 +81,22 @@ func fetchPlaces(mainURL, detailsURL, kind string, places *[]place, wg *sync.Wai
 		if err != nil {
 			log.Printf("cannot convert string id: %v", err)
 		}
-		if id != "0" {
+		if id != "0" && id == "780" {
+			wg.Add(1)
+
 			go func() {
-				wg.Add(1)
 				defer wg.Done()
 				place := new(place)
 				place.ID = newID
-				place.name = s.Text()
+				place.Name = s.Text()
 				docDetails, err := goquery.NewDocument(detailsURL + id)
 				if err != nil {
 					return
 				}
 				address := docDetails.Find(".BusquedaResultado").Text()
 				address = standardizeSpaces(address)
-				address = strings.Replace(address, place.name, place.name+",", -1)
-				place.address = address
+				address = strings.Replace(address, place.Name, place.Name+",", -1)
+				place.Address = address
 
 				docDetails.Find("h3").Each(func(i int, s *goquery.Selection) {
 					name := s.Find(".azul").Text()
@@ -118,14 +108,21 @@ func fetchPlaces(mainURL, detailsURL, kind string, places *[]place, wg *sync.Wai
 						results := strings.Split(timeTable, ",")
 						results = deleteEmpty(results)
 
-						place.shows = append(place.shows, show{name: name, timetable: results})
+						place.Shows = append(place.Shows, show{Name: name, Timetable: results})
 					}
 				})
-				*places = append(*places, *place)
+				c <- *place
 			}()
 		}
 	})
-	return nil
+	go func() {
+		wg.Wait()
+		close(c)
+	}()
+	for n := range c {
+		places = append(places, n)
+	}
+	return places, nil
 }
 
 func deleteEmpty(s []string) []string {
@@ -140,4 +137,25 @@ func deleteEmpty(s []string) []string {
 
 func standardizeSpaces(s string) string {
 	return strings.Join(strings.Fields(s), " ")
+}
+
+func saveToJSON(places []place, filename string) error {
+	p, err := json.Marshal(places)
+	if err != nil {
+		return err
+	}
+	fc, err := os.Create(filename)
+	if err != nil {
+		return err
+	}
+	defer fc.Close()
+
+	wc := bufio.NewWriter(fc)
+	_, err = fmt.Fprint(wc, string(p))
+	if err != nil {
+		return err
+	}
+	wc.Flush()
+
+	return nil
 }
